@@ -1,0 +1,15 @@
+{
+  "name": "ask-abhi-chatbot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ASK ABHI – all-in-one AI chatbot (voice, study, mood, admin) powered by Google Gemini",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0"
+  }
+}
